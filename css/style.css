@@ -772,6 +772,6 @@ div.project-board {
 	text-align: center;
 }
 
-div.project-board img {
-	max-width: 900px;
+img.portfolio-images {
+	width: 100%;
 }
