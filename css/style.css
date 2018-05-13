@@ -775,3 +775,8 @@ div.project-board {
 img.portfolio-images {
 	width: 100%;
 }
+
+p.justified {
+	text-align: justify;
+	text-justify: inter-word;
+}
