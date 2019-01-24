@@ -1,0 +1,358 @@
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #FFEFBD;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.navigation {
+	background-color: #53131E;
+	color: #FFFACC;
+	height: 50px;
+
+		animation-name: navegacao;
+		animation-duration: 2s;
+}
+
+.navigation ul {
+	margin-top: 0px;
+	list-style: none;
+	padding-left: 0px;
+	text-align: right;
+	height: 50px;
+	font-weight: 200;
+}
+
+.navigation li {
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 50px;
+	font-size: 18px;
+}
+
+.navigation a {
+	color: #FFEFBD;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: #B5D6B2;
+}
+
+.navigation li.threeline-icon {
+	display: none;
+}
+
+.navigation li.threeline-icon:hover {
+	color: #B5D6B2;
+	cursor: pointer;
+}
+
+.capa {
+	color: #5A464C;
+}
+
+.capa span {
+	color: #53131E;
+	display: block;
+}
+
+.capa div {
+	display: inline-block;
+	height: 650px;
+}
+
+.profile-pic {
+	width: 40%;
+	text-align: center;
+		animation-name: profile-capa;
+		animation-duration: 2s;
+}
+
+.profile-pic img {
+	width: 320px;
+	border-radius: 320px;
+	margin-top: 120px;
+}
+
+.profile-title {
+	vertical-align: top;
+	width: 59%;
+		animation-name: titulo-capa;
+		animation-duration: 2s;
+}
+
+.profile-title h1 {
+	font-size: 58px;
+	margin-top: 200px;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 58px;
+}
+
+.profile-title h2 {
+	font-size: 16px;
+	margin-top: -26px;
+	margin-left: 5px;
+}
+
+.main {
+	padding: 50px 180px 80px 100px;
+		animation-name: conteudo;
+		animation-duration: 2s;
+}
+
+.main a.backspace-link {
+	color: grey;
+}
+
+.main a.backspace-link:hover {
+	color: #53131E;
+}
+
+.cv-pic {
+	float: left;
+	width: 330px;
+	margin-top: 12px;
+	margin-right: 20px;
+}
+
+.main h1 {
+	color: #5A464C;
+	font-weight: normal;
+}
+
+.main h2 {
+	color: #5A464C;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+
+.main h3 {
+	font-size: 12px;
+	color: #53131E;
+	text-transform: uppercase;
+}
+
+.main p {
+	color: #5A464C;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+	text-align: justify;	
+}
+
+.caminho {
+	list-style: none;
+	padding-left: 0;
+	color: grey;	
+}
+
+.caminho li {
+	display: inline-block;
+}
+
+.caminho a {
+	text-decoration: none;
+	color: grey;
+}
+
+.caminho a:hover {
+	color: #5A464C;
+}
+
+.social-img {
+	width: 50px;
+	margin-left: -2px;
+}
+
+.miniatura {
+	width: 320px;
+	height: 180px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+.miniatura a {
+	text-decoration: none;
+}
+
+.blackbox {
+	width: 100%;
+	height: 100%;
+	background-color: #53131E;
+	opacity: 0;
+	padding-top: 60px;
+	transition: 1s;
+}
+
+.blackbox:hover {
+	opacity: 0.7;
+	transition: 1s;
+
+}
+
+.blackbox-text {
+	text-align: center;
+}
+
+.blackbox-text h1 {
+	font-size: 16px;
+	font-weight: bolder;
+	color: #B5B6B2;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+.blackbox-text h2 {
+	text-transform: none;
+	font-weight: 200;
+	font-size: 14px;
+	color: #FFFACC;
+	margin-top: 0;
+
+}
+
+.foto-trabalhos {
+	width: 70%;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-left: 150px;
+}
+
+@keyframes profile-capa {
+	0% {opacity: 0; transform: translate(0px,20px);}
+	100% {opacity: 1; transform: translate(0px,0px);}
+}
+
+@keyframes titulo-capa {
+	0% {opacity: 0; transform: translate(0px,-20px);}
+	100% {opacity: 1; transform: translate(0px,0px);}
+}
+
+@keyframes conteudo {
+	0% {opacity: 0; transform: translate(-20px,0px);}
+	100% {opacity: 1; transform: translate(0px,0px);}
+}
+
+@keyframes navegacao {
+	0% {opacity: 0;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+
+
+
+@media (max-width: 1000px) {
+
+.navigation li {
+	display: none;
+}
+
+.navigation li.threeline-icon {
+	display: inline-block;
+}
+
+.capa div {
+	display: block;
+	height: auto;
+}
+
+.profile-pic {
+	width: 100%;
+}
+
+.profile-pic img {
+	margin-top: 20px;
+	max-width: 80%;
+}
+
+.profile-title {
+	text-align: center;
+	width: 100%;
+}
+
+.profile-title h1 {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 36px;
+}
+
+.profile-title h2 {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+
+.main {
+	padding: 10px 10% 40px 10%;
+}
+
+.main p {
+	text-align: left;
+	line-height: 30px;
+}
+
+.caminho li {
+	font-size: 12px;
+}
+
+.cv-pic {
+	float: none;
+	max-width: 100%;
+	margin-right: 0px;
+}
+
+.backspace-link {
+	font-size: 12px;
+}
+
+.miniatura {
+	max-width: 100%;
+	background-size: auto 100%;
+}
+
+.blackbox {
+	opacity: 0.7;
+}
+
+.foto-trabalhos {
+	width: 80%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+
+.menujs {
+	height: auto;
+}
+
+.menujs ul {
+	height: auto;
+	text-align: center;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+.menujs li {
+	display: block;
+	border-bottom: solid #FFFACC 1px;
+	width: 100%;
+	padding: 0;
+}
+
+
+}
