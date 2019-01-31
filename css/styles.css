@@ -69,7 +69,7 @@ body {
 }
 
 .profile-pic {
-	width: 40%;
+	width: 50%;
 	text-align: center;
 		animation-name: profile-capa;
 		animation-duration: 2s;
@@ -83,7 +83,7 @@ body {
 
 .profile-title {
 	vertical-align: top;
-	width: 59%;
+	width: 49%;
 		animation-name: titulo-capa;
 		animation-duration: 2s;
 }
