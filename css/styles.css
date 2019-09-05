@@ -4,69 +4,82 @@ html, body {
 	padding: 0px;
 }
 
+
 body {
-	background-color: #FFEFBD;
-	font-family: 'Montserrat', sans-serif;
+	background-color: #ECDCC9;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 
 .navigation {
-	background-color: #53131E;
-	color: #FFFACC;
+	background-color: #4D243D;
+	color: #ECDCC9;
 	height: 50px;
+	font-family: 'Amatic SC', cursive;
 
 		animation-name: navegacao;
 		animation-duration: 2s;
 }
 
+
 .navigation ul {
 	margin-top: 0px;
 	list-style: none;
 	padding-left: 0px;
+	padding-right: 15px;
 	text-align: right;
 	height: 50px;
-	font-weight: 200;
+	font-weight: 500;
 }
+
 
 .navigation li {
 	display: inline-block;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
 	line-height: 50px;
-	font-size: 18px;
+	font-size: 26px;
 }
 
+
 .navigation a {
-	color: #FFEFBD;
+	color: #ECDCC9;
 	text-decoration: none;
 }
 
+
 .navigation a:hover {
-	color: #B5D6B2;
+	color: #E5BA9E;
 }
+
 
 .navigation li.threeline-icon {
 	display: none;
 }
+
 
 .navigation li.threeline-icon:hover {
 	color: #B5D6B2;
 	cursor: pointer;
 }
 
+
 .capa {
-	color: #5A464C;
+	color: #4C4944;
 }
 
+
 .capa span {
-	color: #53131E;
+	color: #4D243D;
 	display: block;
 }
+
 
 .capa div {
 	display: inline-block;
 	height: 650px;
 }
+
 
 .profile-pic {
 	width: 50%;
@@ -75,11 +88,13 @@ body {
 		animation-duration: 2s;
 }
 
+
 .profile-pic img {
 	width: 320px;
 	border-radius: 320px;
 	margin-top: 120px;
 }
+
 
 .profile-title {
 	vertical-align: top;
@@ -88,19 +103,26 @@ body {
 		animation-duration: 2s;
 }
 
+
 .profile-title h1 {
-	font-size: 58px;
-	margin-top: 200px;
+	font-size: 62px;
+	margin-top: 180px;
 	text-transform: uppercase;
-	font-weight: bold;
-	line-height: 58px;
+	font-weight: 900;
+	line-height: 80px;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
+
 .profile-title h2 {
-	font-size: 16px;
-	margin-top: -26px;
+	font-size: 32px;
+	margin-top: -30px;
 	margin-left: 5px;
+	font-family: 'Amatic SC', cursive;
+	font-weight: 500;
+	text-transform: none;
 }
+
 
 .main {
 	padding: 50px 180px 80px 100px;
@@ -108,70 +130,91 @@ body {
 		animation-duration: 2s;
 }
 
+
 .main a.backspace-link {
 	color: grey;
 }
+
 
 .main a.backspace-link:hover {
 	color: #53131E;
 }
 
+
 .cv-pic {
 	float: left;
-	width: 330px;
-	margin-top: 12px;
+	width: 300px;
+	margin-top: 22px;
 	margin-right: 20px;
 }
 
+
 .main h1 {
-	color: #5A464C;
-	font-weight: normal;
+	color: #4D243D;
+	font-weight: bold;
+	font-family: 'Marvel', sans-serif;
+	font-size: 26px;
+	text-transform: uppercase;
+	padding-top: 20px;
 }
 
+
 .main h2 {
-	color: #5A464C;
+	color: #4C4944;
 	font-size: 16px;
 	text-transform: uppercase;
 	margin-top: 40px;
+	font-weight: 600;
+
+
 }
 
 .main h3 {
-	font-size: 12px;
-	color: #53131E;
+	font-size: 14px;
+	color: #4D243D;
 	text-transform: uppercase;
+	margin-top: 30px;
 }
 
+
 .main p {
-	color: #5A464C;
+	color: #4C4944;
 	font-size: 16px;
-	font-weight: normal;
+	font-weight: 100;
 	line-height: 24px;
 	text-align: justify;	
 }
 
+
 .caminho {
 	list-style: none;
 	padding-left: 0;
-	color: grey;	
+	color: grey;
+	font-size: 16px;	
 }
 
+
 .caminho li {
-	display: inline-block;
+	display: inline-block;	
 }
+
 
 .caminho a {
 	text-decoration: none;
 	color: grey;
 }
 
+
 .caminho a:hover {
 	color: #5A464C;
 }
+
 
 .social-img {
 	width: 50px;
 	margin-left: -2px;
 }
+
 
 .miniatura {
 	width: 320px;
@@ -182,51 +225,57 @@ body {
 	overflow: hidden;
 }
 
+
 .miniatura a {
 	text-decoration: none;
 }
 
+
 .blackbox {
 	width: 100%;
 	height: 100%;
-	background-color: #53131E;
+	background-color: #4D243D;
 	opacity: 0;
-	padding-top: 60px;
+	padding-top: 40px;
 	transition: 1s;
 }
+
 
 .blackbox:hover {
 	opacity: 0.7;
 	transition: 1s;
-
 }
+
 
 .blackbox-text {
 	text-align: center;
 }
 
+
 .blackbox-text h1 {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: bolder;
-	color: #B5B6B2;
+	color: #E5BA9E;
 	text-transform: uppercase;
 	margin-top: 0;
+	font-family: 'Marvel', sans-serif;
 }
+
 
 .blackbox-text h2 {
 	text-transform: none;
 	font-weight: 200;
-	font-size: 14px;
-	color: #FFFACC;
+	font-size: 16px;
+	color: #ECDCC9;
 	margin-top: 0;
-
 }
 
+
 .foto-trabalhos {
-	width: 70%;
+	width: 50%;
 	margin-bottom: 20px;
-	margin-top: 10px;
-	margin-left: 150px;
+	margin-top: 20px;
+	margin-left: 300px;
 }
 
 @keyframes profile-capa {
