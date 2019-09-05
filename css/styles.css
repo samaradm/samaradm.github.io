@@ -332,17 +332,18 @@ body {
 }
 
 .profile-title h1 {
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-left: 20px;
 	margin-right: 20px;
 	font-size: 36px;
 }
 
 .profile-title h2 {
-	margin-top: 5px;
+	margin-top: 0px;
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
+	font-size: 28px;
 }
 
 
@@ -353,7 +354,7 @@ body {
 
 .main p {
 	text-align: left;
-	line-height: 30px;
+	line-height: 20px;
 }
 
 .caminho li {
