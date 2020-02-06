@@ -275,12 +275,21 @@ body {
 	margin-top: 0;
 }
 
+.text-imgs {
+	margin-left: 150px;
+	margin-bottom: -20px;
+	font-size: 12px;
+}
 
 .foto-trabalhos {
 	width: 70%;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	margin-left: 150px;
+
+
+
+
 }
 
 @keyframes profile-capa {
