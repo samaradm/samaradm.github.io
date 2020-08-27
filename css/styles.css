@@ -6,16 +6,17 @@ html, body {
 
 
 body {
-	background-color: #ECDCC9;
+	background-color: #FFFFFF;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
 
 .navigation {
-	background-color: #4D243D;
-	color: #ECDCC9;
+	background-color: #000000;
+	color: #FFFFFF;
 	height: 50px;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
 
 		animation-name: navegacao;
 		animation-duration: 2s;
@@ -38,18 +39,18 @@ body {
 	padding-left: 40px;
 	padding-right: 40px;
 	line-height: 50px;
-	font-size: 26px;
+	font-size: 18px;
 }
 
 
 .navigation a {
-	color: #ECDCC9;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
 
 .navigation a:hover {
-	color: #E5BA9E;
+	color: #888888;
 }
 
 
@@ -98,6 +99,7 @@ body {
 
 .profile-title {
 	vertical-align: top;
+	margin-top: 50px;
 	width: 49%;
 		animation-name: titulo-capa;
 		animation-duration: 2s;
@@ -117,10 +119,10 @@ body {
 .profile-title h2 {
 	font-size: 32px;
 	margin-top: -30px;
-	margin-left: 5px;
-	font-family: 'Amatic SC', cursive;
+	margin-left: 35px;
+	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 500;
-	text-transform: none;
+	text-transform: uppercase;
 }
 
 
@@ -150,9 +152,9 @@ body {
 
 
 .main h1 {
-	color: #4D243D;
+	color: #000000;
 	font-weight: bold;
-	font-family: 'Marvel', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 26px;
 	text-transform: uppercase;
 	padding-top: 20px;
@@ -171,7 +173,7 @@ body {
 
 .main h3 {
 	font-size: 14px;
-	color: #4D243D;
+	color: #000000;
 	text-transform: uppercase;
 	margin-top: 30px;
 }
@@ -218,6 +220,11 @@ body {
 .email-text {
 	text-decoration: none;
 	color:#4C4944;
+}
+
+.wpp-text {
+	text-decoration: none;
+	color: #4C4944;
 }
 
 
